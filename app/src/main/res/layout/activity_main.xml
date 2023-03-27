@@ -12,6 +12,7 @@
     <EditText
         android:id="@+id/edit_file"
         style="@style/Widget.AppCompat.EditText"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
@@ -63,6 +64,7 @@
             android:layout_marginBottom="@dimen/tiny_margin"
             android:layout_marginStart="@dimen/tiny_margin"
             android:layout_weight="1"
+            android:textColor="@color/black"
             android:background="@android:color/white"
             android:ems="10"
             android:hint="@string/title"
